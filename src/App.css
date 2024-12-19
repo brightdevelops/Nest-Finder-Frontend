@@ -1,1 +1,24 @@
 
+.header{
+    width:100%;
+    height:100px;
+    top:0; left:0;
+    position:fixed;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+    display: flex;
+}
+.navi-bar{
+    display:flex;
+    width: 100%; 
+    justify-content: space-evenly;
+   align-items: center;
+   border: 1px solid blue;
+
+}
+.navi-bar li{
+    list-style: none;
+    text-decoration: none;
+    font-size: 20px;
+}
